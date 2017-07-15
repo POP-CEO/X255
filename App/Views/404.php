@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Home</title>
+    <title> 404 Error</title>
 
     <link href="<?php echo assets('Admin/css/bootstrap.min.css');?>" rel="stylesheet">
     <link href="<?php echo assets('Admin/css/font-awesome.css');?>" rel="stylesheet">
@@ -20,13 +20,11 @@
 
 
     <div class="middle-box text-center animated fadeInDown">
-        <h1>Home</h1>
-        <h3 class="font-bold">Home page</h3>
+        <h1>404</h1>
+        <h3 class="font-bold">Page Not Found</h3>
 
         <div class="error-desc">
-            Sorry, but the Programming not finish yet this page 
-            the other url http://localhost/Blog/admin/login 
-            
+            Sorry, but the page you are looking for has note been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in our app.
 
         </div>
     </div>

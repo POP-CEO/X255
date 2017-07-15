@@ -3,6 +3,11 @@ namespace System;
 
 class Route
 {
+/**
+ * System\Allication
+ *
+ * @var [type]
+ */    
 private $app;
 
 private $notFound;

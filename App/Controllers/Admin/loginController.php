@@ -36,11 +36,15 @@ $this->cookie->set('login',$loginUser->code);
 }else{
 $this->session->set('login',$loginUser->code);
 }
-return $this->url->redirect('/admin');
 
+$json=[];
+$json['Success']='Welcom Back'.$loginUser->first_name;
+$json['redirect']=$this->url->link('/admin');
+return $this->json($json); 
 }else{
-return $this->index();
-
+$json=[];
+$json['error']=$this->error;
+return $this->json($json);
 }
 
 }   

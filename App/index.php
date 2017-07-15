@@ -71,6 +71,7 @@ $app->route->add('/admin/ads/delete:id','Admin/ads@delete');
 
 
 $app->route->add('/','Home');
+$app->route->add('/home','Home');
 $app->route->add('/logout','Logout');
 $app->route->notFound('/404');
 $app->route->add('/404','NotFound');

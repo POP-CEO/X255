@@ -32,5 +32,14 @@ abstract  class Controllers
     {
         return  $this->app->get($key);
     }
-    
+/**
+ * Encode the given value to json
+ * 
+ * @param mixed $data
+ * @return String 
+ */
+    public function json($json)
+    {
+        return json_encode($json);
+    }
 }

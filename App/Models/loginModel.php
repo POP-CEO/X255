@@ -51,6 +51,7 @@ public function isLogged()
 {
  if($this->cookie->has('login')){
      $code=$this->cookie->get('login');
+    
  } elseif($this->session->has('login')){
      $code=$this->session->get('login');
  }else{
@@ -61,5 +62,6 @@ public function isLogged()
      return false;
  }
  $this->users=$user;
+ return true;
 } 
 }

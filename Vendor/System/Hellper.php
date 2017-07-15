@@ -17,3 +17,13 @@ if (! function_exists('url')){
 
     }
 }
+
+if (! function_exists('pre')){
+    function pre($path)
+    {
+        echo "<pre>";
+        print_r($path);
+        echo "</pre>";
+
+    }
+}

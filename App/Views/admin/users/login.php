@@ -33,12 +33,10 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
     <form  method="post" id='form' action="<?php echo url('/admin/login/submit');?>">
+<!--Error-->
+    <div class="" id="login-result" style="text-align:center;"> </div>
 
-    <?php if ($errors){ ?>
-    <div class="alert alert-danger" style="text-align:center;"><?php echo implode('<br>',$errors) ?></div>
-        <?php };?> 
       <div class="form-group has-feedback">
-
         <input type="email" class="form-control" id='email' name='email'
          require aria-required='true' aria-describedby="email-format"  placeholder="Email" pattern="[a-zA-Z0-9_]+[@]+[a-z]+[.]+[a-z]+">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -59,7 +57,8 @@
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat" data-select="login">Sign In</button>
+                  <button type="submit" class="btn btn-primary btn-block btn-flat" id="myButton" data-select="login"
+                   data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">Sign In</button>
         </div>
         <!-- /.col -->
       </div>

@@ -9,7 +9,7 @@ class NotFoundController extends Controllers
 public function index()
 {
  
-return $this->view->render('notfound');
+return $this->view->render('404');
 }
     
 }
