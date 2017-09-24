@@ -1,0 +1,142 @@
+/*Font-Google*/
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body{
+font-family: 'Cairo', sans-serif;
+}
+
+/*Logo Font */
+.font-log{
+font-family: 'Lalezar', cursive;	
+}
+
+
+/*Home->img*/
+
+
+.fix-img{
+width: 100%;
+}
+.fix-btn-header{
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding: 1px 20px;
+    position: relative;
+    top: 7px;
+    outline: none;
+
+}
+/*Home-addEvent*/
+  .fixrow{
+  margin-top: 50px;
+  }
+  .breadcrumb{
+    right: 0px;
+    left: 10px;
+  }
+/*addEvent ->input*/
+  input[type]::-webkit-input-placeholder {
+text-align:right;
+}
+
+
+input[type]:-moz-placeholder { /* Firefox 18- */
+text-align:right;
+}
+
+input[type]::-moz-placeholder {  /* Firefox 19+ */
+text-align:right;
+}
+
+input[type]:-ms-input-placeholder {
+text-align:right;
+}
+
+/*addEvent ->input*/
+  input[list]::-webkit-input-placeholder {
+text-align:right;
+}
+
+
+input[list]:-moz-placeholder { /* Firefox 18- */
+text-align:right;
+}
+
+input[list]::-moz-placeholder {  /* Firefox 19+ */
+text-align:right;
+}
+
+input[list]:-ms-input-placeholder {
+text-align:right;
+}
+/*Main div*/
+.content{
+margin-top: 63px;
+}
+
+.fix-formgroup{
+margin-bottom:15px;
+}
+/*File Content*/
+.file{
+border: 3px dashed #333;
+height: 400px;
+background: #DDD;
+margin-top: 50px;
+}
+/*fix Icon Bootstrap*/
+.glyphicon{
+	top:0;
+}
+
+.box-header>.box-tools{
+	right: 0px;
+	left: 10px;
+}
+/*Fix Submit*/
+.btmadd{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+  .fix-margin-input{
+  	margin-bottom: 20px;
+        margin-right: 19px;
+  }
+  .form-horizontal .form-group{
+    margin-left: 0px;
+  }
+  /*Fix- File-content*/
+    .jFiler-input-dragDrop{
+      height: 300px;
+      width: 100%;
+    }
+    .jFiler-input-dragDrop .jFiler-input-icon{
+          font-size: 60px;
+    margin-top: 5px;
+    }
+    .jFiler-input-text span{
+          font-size: 20px;
+    }
+    .jFiler-input-text h3{
+      font-size: 30px;
+    }
+    .jFiler-input-choose-btn.blue{
+    text-align: center;
+    padding: 1px 14px;
+    height: 40px;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+
+    .jFiler {
+      font-family: inherit;
+    }
